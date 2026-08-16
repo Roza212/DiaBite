@@ -1,0 +1,748 @@
+{
+  "foodItems": [
+    {
+      "id": "banana",
+      "name": "Banana",
+      "normalizedName": "banana",
+      "category": "fruit",
+      "subcategory": "tropical_fruit",
+      "servingSize": "1 medium (118g)",
+      "householdMeasure": "1 medium banana",
+      "calories": 105,
+      "totalCarbohydrates": 27.0,
+      "netCarbs": 24.0,
+      "fiber": 3.0,
+      "sugars": 14.0,
+      "addedSugars": 0.0,
+      "protein": 1.3,
+      "totalFat": 0.4,
+      "saturatedFat": 0.1,
+      "transFat": 0.0,
+      "cholesterol": 0.0,
+      "sodium": 1.0,
+      "potassium": 422.0,
+      "calcium": 6.0,
+      "iron": 0.3,
+      "magnesium": 32.0,
+      "glycemicIndex": 51,
+      "glycemicLoad": 13.0,
+      "omega3": 0.0,
+      "omega6": 0.0,
+      "antioxidantLevel": "medium",
+      "inflammatoryIndex": "neutral",
+      "glycemicImpact": "medium",
+      "nutritionalDensity": "medium",
+      "recommendations": {
+        "diabetes_type1": {
+          "condition": "diabetes_type1",
+          "safetyLevel": "caution",
+          "reasoning": "High in natural sugars, requires careful insulin dosing",
+          "keyPoints": [
+            "Count as 2 carbohydrate exchanges",
+            "May require 1-2 units rapid insulin",
+            "Best consumed before or after exercise",
+            "Monitor blood sugar 2 hours after eating"
+          ],
+          "servingAdvice": "1 small banana or 1/2 medium banana",
+          "timingAdvice": "Best as pre or post-workout snack",
+          "pairingSuggestions": ["Greek yogurt", "handful of nuts", "peanut butter"],
+          "alternatives": ["apple", "berries", "pear"],
+          "bloodSugarImpact": "high",
+          "bloodPressureImpact": "positive",
+          "heartHealthImpact": "neutral",
+          "kidneyImpact": "medium"
+        },
+        "diabetes_type2": {
+          "condition": "diabetes_type2",
+          "safetyLevel": "caution",
+          "reasoning": "Can cause blood sugar spikes, especially when ripe",
+          "keyPoints": [
+            "High glycemic load when ripe",
+            "Choose slightly green bananas for lower GI",
+            "Always pair with protein or healthy fat",
+            "Limit to small portions"
+          ],
+          "servingAdvice": "1 small banana or 1/2 medium banana with protein",
+          "timingAdvice": "Avoid on empty stomach",
+          "pairingSuggestions": ["almonds", "cheese", "protein shake"],
+          "alternatives": ["berries", "apple", "orange"],
+          "bloodSugarImpact": "medium_high",
+          "bloodPressureImpact": "positive",
+          "heartHealthImpact": "neutral",
+          "kidneyImpact": "medium"
+        },
+        "hypertension": {
+          "condition": "hypertension",
+          "safetyLevel": "good",
+          "reasoning": "Excellent potassium source helps regulate blood pressure",
+          "keyPoints": [
+            "High potassium content (422mg per serving)",
+            "Low sodium content",
+            "Good for blood pressure management",
+            "Watch portion size if weight management is needed"
+          ],
+          "servingAdvice": "1 medium banana",
+          "timingAdvice": "Any time of day",
+          "pairingSuggestions": ["oatmeal", "yogurt", "whole grain toast"],
+          "alternatives": ["avocado", "sweet potato", "spinach"],
+          "bloodSugarImpact": "medium",
+          "bloodPressureImpact": "positive",
+          "heartHealthImpact": "positive",
+          "kidneyImpact": "medium"
+        },
+        "high_cholesterol": {
+          "condition": "high_cholesterol",
+          "safetyLevel": "good",
+          "reasoning": "Cholesterol-free with good fiber content",
+          "keyPoints": [
+            "Soluble fiber helps lower LDL cholesterol",
+            "No cholesterol or saturated fat",
+            "Good addition to heart-healthy diet",
+            "Natural energy source without unhealthy fats"
+          ],
+          "servingAdvice": "1 medium banana",
+          "timingAdvice": "Great for breakfast or snacks",
+          "pairingSuggestions": ["oatmeal", "whole grains", "nuts"],
+          "alternatives": ["oats", "barley", "apples"],
+          "bloodSugarImpact": "medium",
+          "bloodPressureImpact": "positive",
+          "heartHealthImpact": "positive",
+          "kidneyImpact": "medium"
+        }
+      },
+      "primaryAlternatives": [
+        {
+          "foodId": "apple",
+          "advantage": "Lower glycemic impact and higher fiber",
+          "improvement": "40% lower glycemic load",
+          "bestFor": ["diabetes_type1", "diabetes_type2", "weight_management"]
+        },
+        {
+          "foodId": "blueberries",
+          "advantage": "Antioxidant-rich with very low sugar impact",
+          "improvement": "70% less sugar per serving",
+          "bestFor": ["diabetes_type1", "diabetes_type2", "heart_disease"]
+        },
+        {
+          "foodId": "pear",
+          "advantage": "More fiber and slower sugar release",
+          "improvement": "25% more fiber content",
+          "bestFor": ["diabetes_type2", "digestive_health"]
+        }
+      ],
+      "alternativeReasoning": "These alternatives provide similar satisfaction with better blood sugar control and more nutritional benefits",
+      "nutritionalBenefits": [
+        {
+          "category": "heart_health",
+          "description": "High potassium content supports healthy blood pressure",
+          "strength": "strong"
+        },
+        {
+          "category": "digestion",
+          "description": "Good source of prebiotic fiber for gut health",
+          "strength": "moderate"
+        },
+        {
+          "category": "energy",
+          "description": "Natural sugars provide quick energy with fiber moderation",
+          "strength": "moderate"
+        }
+      ],
+      "potentialConcerns": [
+        {
+          "category": "blood_sugar",
+          "description": "High natural sugar content can spike blood glucose",
+          "severity": "moderate"
+        },
+        {
+          "category": "portion_control",
+          "description": "Easy to overconsume due to sweet taste",
+          "severity": "minor"
+        },
+        {
+          "category": "ripeness_effect",
+          "description": "Glycemic index increases significantly as banana ripens",
+          "severity": "moderate"
+        }
+      ],
+      "preparationTips": [
+        {
+          "category": "selection",
+          "description": "Choose slightly green bananas for lower glycemic impact"
+        },
+        {
+          "category": "pairing",
+          "description": "Always eat with protein or healthy fat to slow sugar absorption"
+        },
+        {
+          "category": "timing",
+          "description": "Best consumed after physical activity when muscles need glycogen"
+        },
+        {
+          "category": "preparation",
+          "description": "Use in smoothies with protein powder and greens"
+        }
+      ],
+      "dataSource": "curated",
+      "lastVerified": "2024-01-15T00:00:00Z",
+      "confidenceScore": 0.9,
+      "searchCount": 0,
+      "addedBy": "system",
+      "createdAt": "2024-01-15T00:00:00Z",
+      "lastUpdated": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "normalizedName": "apple",
+      "category": "fruit",
+      "subcategory": "temperate_fruit",
+      "servingSize": "1 medium (182g)",
+      "householdMeasure": "1 medium apple",
+      "calories": 95,
+      "totalCarbohydrates": 25.0,
+      "netCarbs": 21.0,
+      "fiber": 4.0,
+      "sugars": 19.0,
+      "addedSugars": 0.0,
+      "protein": 0.5,
+      "totalFat": 0.3,
+      "saturatedFat": 0.1,
+      "transFat": 0.0,
+      "cholesterol": 0.0,
+      "sodium": 2.0,
+      "potassium": 195.0,
+      "calcium": 11.0,
+      "iron": 0.2,
+      "magnesium": 9.0,
+      "glycemicIndex": 36,
+      "glycemicLoad": 6.0,
+      "omega3": 0.0,
+      "omega6": 0.0,
+      "antioxidantLevel": "medium",
+      "inflammatoryIndex": "anti-inflammatory",
+      "glycemicImpact": "low",
+      "nutritionalDensity": "high",
+      "recommendations": {
+        "diabetes_type1": {
+          "condition": "diabetes_type1",
+          "safetyLevel": "good",
+          "reasoning": "Low glycemic load with good fiber content",
+          "keyPoints": [
+            "Count as 1.5 carbohydrate exchanges",
+            "Stable blood sugar response",
+            "High fiber slows sugar absorption",
+            "Good snack option between meals"
+          ],
+          "servingAdvice": "1 medium apple with skin",
+          "timingAdvice": "Good for snacks or with meals",
+          "pairingSuggestions": ["cheese", "nuts", "peanut butter"],
+          "alternatives": ["pear", "berries", "orange"],
+          "bloodSugarImpact": "low",
+          "bloodPressureImpact": "neutral",
+          "heartHealthImpact": "positive",
+          "kidneyImpact": "low"
+        },
+        "diabetes_type2": {
+          "condition": "diabetes_type2",
+          "safetyLevel": "good",
+          "reasoning": "Excellent fruit choice with low glycemic impact",
+          "keyPoints": [
+            "One of the best fruits for blood sugar control",
+            "High fiber content improves satiety",
+            "Antioxidants support overall health",
+            "Portion control still important"
+          ],
+          "servingAdvice": "1 medium apple",
+          "timingAdvice": "Ideal for afternoon snacks",
+          "pairingSuggestions": ["almonds", "Greek yogurt", "cheese"],
+          "alternatives": ["pear", "berries", "peach"],
+          "bloodSugarImpact": "low",
+          "bloodPressureImpact": "neutral",
+          "heartHealthImpact": "positive",
+          "kidneyImpact": "low"
+        }
+      },
+      "primaryAlternatives": [
+        {
+          "foodId": "pear",
+          "advantage": "Similar nutrition with even higher fiber",
+          "improvement": "20% more fiber content",
+          "bestFor": ["diabetes_type2", "digestive_health"]
+        },
+        {
+          "foodId": "berries",
+          "advantage": "Lower sugar content with higher antioxidants",
+          "improvement": "60% less sugar per serving",
+          "bestFor": ["diabetes_type1", "diabetes_type2", "heart_disease"]
+        }
+      ],
+      "alternativeReasoning": "While apple is already excellent, these options provide even better blood sugar control",
+      "nutritionalBenefits": [
+        {
+          "category": "blood_sugar",
+          "description": "Low glycemic load with high fiber for stable glucose",
+          "strength": "strong"
+        },
+        {
+          "category": "heart_health",
+          "description": "Soluble fiber helps lower cholesterol levels",
+          "strength": "moderate"
+        },
+        {
+          "category": "digestion",
+          "description": "Excellent source of both soluble and insoluble fiber",
+          "strength": "strong"
+        }
+      ],
+      "potentialConcerns": [
+        {
+          "category": "portion_control",
+          "description": "Still contains natural sugars that add up",
+          "severity": "minor"
+        }
+      ],
+      "preparationTips": [
+        {
+          "category": "selection",
+          "description": "Choose firm apples with bright color for maximum nutrients"
+        },
+        {
+          "category": "preparation",
+          "description": "Always eat with skin for maximum fiber benefits"
+        },
+        {
+          "category": "pairing",
+          "description": "Pair with protein or fat for even better blood sugar response"
+        }
+      ],
+      "dataSource": "curated",
+      "lastVerified": "2024-01-15T00:00:00Z",
+      "confidenceScore": 0.9,
+      "searchCount": 0,
+      "addedBy": "system",
+      "createdAt": "2024-01-15T00:00:00Z",
+      "lastUpdated": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "white_bread",
+      "name": "White Bread",
+      "normalizedName": "white bread",
+      "category": "grain",
+      "subcategory": "refined_grain",
+      "servingSize": "1 slice (28g)",
+      "householdMeasure": "1 slice",
+      "calories": 79,
+      "totalCarbohydrates": 15.0,
+      "netCarbs": 14.0,
+      "fiber": 1.0,
+      "sugars": 2.0,
+      "addedSugars": 1.5,
+      "protein": 3.0,
+      "totalFat": 1.0,
+      "saturatedFat": 0.2,
+      "transFat": 0.0,
+      "cholesterol": 0.0,
+      "sodium": 170.0,
+      "potassium": 30.0,
+      "calcium": 40.0,
+      "iron": 1.0,
+      "magnesium": 8.0,
+      "glycemicIndex": 75,
+      "glycemicLoad": 11.0,
+      "glycemicImpact": "high",
+      "nutritionalDensity": "low",
+      "recommendations": {
+        "diabetes_type1": {
+          "condition": "diabetes_type1",
+          "safetyLevel": "caution",
+          "reasoning": "High glycemic index requires precise insulin timing",
+          "keyPoints": [
+            "Count as 1 carbohydrate exchange per slice",
+            "Rapid blood sugar spike likely",
+            "Requires pre-bolusing insulin",
+            "Monitor closely after consumption"
+          ],
+          "servingAdvice": "1 slice maximum, preferably with protein",
+          "timingAdvice": "Avoid on empty stomach",
+          "pairingSuggestions": ["eggs", "cheese", "lean protein"],
+          "alternatives": ["whole_grain_bread", "sprouted_bread", "low_carb_bread"],
+          "bloodSugarImpact": "high",
+          "bloodPressureImpact": "neutral",
+          "heartHealthImpact": "negative",
+          "kidneyImpact": "low"
+        },
+        "diabetes_type2": {
+          "condition": "diabetes_type2",
+          "safetyLevel": "avoid",
+          "reasoning": "Rapidly converts to sugar causing significant blood spikes",
+          "keyPoints": [
+            "Very high glycemic index",
+            "Minimal fiber to slow digestion",
+            "Often contains added sugars",
+            "Promotes insulin resistance with regular consumption"
+          ],
+          "servingAdvice": "Avoid or limit to 1/2 slice occasionally",
+          "timingAdvice": "Not recommended",
+          "pairingSuggestions": ["Not recommended - choose alternatives"],
+          "alternatives": ["whole_grain_bread", "cloud_bread", "lettuce_wraps"],
+          "bloodSugarImpact": "very_high",
+          "bloodPressureImpact": "neutral",
+          "heartHealthImpact": "negative",
+          "kidneyImpact": "low"
+        },
+        "hypertension": {
+          "condition": "hypertension",
+          "safetyLevel": "caution",
+          "reasoning": "High sodium content and low nutritional value",
+          "keyPoints": [
+            "Often high in sodium (170mg per slice)",
+            "Low in blood-pressure-friendly nutrients",
+            "Can contribute to weight gain",
+            "Minimal heart health benefits"
+          ],
+          "servingAdvice": "Limit consumption",
+          "timingAdvice": "Not ideal for regular consumption",
+          "pairingSuggestions": ["Choose whole grain alternatives"],
+          "alternatives": ["whole_grain_bread", "oat_bread", "sprouted_bread"],
+          "bloodSugarImpact": "high",
+          "bloodPressureImpact": "negative",
+          "heartHealthImpact": "negative",
+          "kidneyImpact": "low"
+        }
+      },
+      "primaryAlternatives": [
+        {
+          "foodId": "whole_grain_bread",
+          "advantage": "Higher fiber and nutrients with lower glycemic impact",
+          "improvement": "300% more fiber and 40% lower glycemic index",
+          "bestFor": ["diabetes_type1", "diabetes_type2", "heart_disease"]
+        },
+        {
+          "foodId": "sprouted_bread",
+          "advantage": "Better nutrient absorption and lower carb content",
+          "improvement": "25% fewer carbs and higher protein",
+          "bestFor": ["diabetes_type2", "weight_management"]
+        },
+        {
+          "foodId": "cloud_bread",
+          "advantage": "Very low carb alternative made from eggs and cheese",
+          "improvement": "90% fewer carbs per serving",
+          "bestFor": ["diabetes_type1", "diabetes_type2", "keto_diet"]
+        }
+      ],
+      "alternativeReasoning": "These alternatives provide similar functionality without the blood sugar spikes and offer better nutritional value",
+      "nutritionalBenefits": [
+        {
+          "category": "convenience",
+          "description": "Quick and easy carbohydrate source",
+          "strength": "weak"
+        }
+      ],
+      "potentialConcerns": [
+        {
+          "category": "blood_sugar",
+          "description": "Very high glycemic index causes rapid blood sugar spikes",
+          "severity": "significant"
+        },
+        {
+          "category": "nutrition",
+          "description": "Minimal fiber, vitamins, and minerals compared to whole grains",
+          "severity": "significant"
+        },
+        {
+          "category": "heart_health",
+          "description": "Regular consumption linked to increased heart disease risk",
+          "severity": "moderate"
+        }
+      ],
+      "preparationTips": [
+        {
+          "category": "alternative",
+          "description": "Choose whole grain or low-carb bread alternatives instead"
+        },
+        {
+          "category": "pairing",
+          "description": "If consumed, always pair with protein, fat, and vegetables"
+        },
+        {
+          "category": "portion",
+          "description": "Strictly limit to small portions very occasionally"
+        }
+      ],
+      "dataSource": "curated",
+      "lastVerified": "2024-01-15T00:00:00Z",
+      "confidenceScore": 0.9,
+      "searchCount": 0,
+      "addedBy": "system",
+      "createdAt": "2024-01-15T00:00:00Z",
+      "lastUpdated": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "normalizedName": "salmon",
+      "category": "protein",
+      "subcategory": "fish",
+      "servingSize": "3oz cooked (85g)",
+      "householdMeasure": "Deck of cards size",
+      "calories": 175,
+      "totalCarbohydrates": 0.0,
+      "netCarbs": 0.0,
+      "fiber": 0.0,
+      "sugars": 0.0,
+      "addedSugars": 0.0,
+      "protein": 22.0,
+      "totalFat": 10.0,
+      "saturatedFat": 1.5,
+      "transFat": 0.0,
+      "cholesterol": 55.0,
+      "sodium": 50.0,
+      "potassium": 370.0,
+      "calcium": 15.0,
+      "iron": 0.5,
+      "magnesium": 26.0,
+      "glycemicIndex": 0,
+      "glycemicLoad": 0.0,
+      "omega3": 1.8,
+      "omega6": 0.2,
+      "antioxidantLevel": "medium",
+      "inflammatoryIndex": "anti-inflammatory",
+      "glycemicImpact": "none",
+      "nutritionalDensity": "high",
+      "recommendations": {
+        "diabetes_type1": {
+          "condition": "diabetes_type1",
+          "safetyLevel": "excellent",
+          "reasoning": "Zero carbs with high-quality protein and healthy fats",
+          "keyPoints": [
+            "No carbohydrate counting needed",
+            "Excellent source of omega-3 fatty acids",
+            "Helps with satiety and weight management",
+            "Supports heart health"
+          ],
+          "servingAdvice": "3-6oz per meal",
+          "timingAdvice": "Excellent for any meal",
+          "pairingSuggestions": ["non-starchy vegetables", "quinoa", "brown rice"],
+          "alternatives": ["other_fatty_fish", "chia_seeds", "walnuts"],
+          "bloodSugarImpact": "none",
+          "bloodPressureImpact": "positive",
+          "heartHealthImpact": "very_positive",
+          "kidneyImpact": "low"
+        },
+        "diabetes_type2": {
+          "condition": "diabetes_type2",
+          "safetyLevel": "excellent",
+          "reasoning": "Ideal protein source that improves insulin sensitivity",
+          "keyPoints": [
+            "Zero impact on blood sugar",
+            "Omega-3s reduce inflammation and improve insulin sensitivity",
+            "High protein promotes satiety and weight loss",
+            "Excellent for metabolic health"
+          ],
+          "servingAdvice": "3-6oz 2-3 times per week",
+          "timingAdvice": "Great for lunch or dinner",
+          "pairingSuggestions": ["leafy_greens", "avocado", "olive_oil"],
+          "alternatives": ["sardines", "mackerel", "trout"],
+          "bloodSugarImpact": "none",
+          "bloodPressureImpact": "positive",
+          "heartHealthImpact": "very_positive",
+          "kidneyImpact": "low"
+        },
+        "hypertension": {
+          "condition": "hypertension",
+          "safetyLevel": "excellent",
+          "reasoning": "Rich in omega-3s that help lower blood pressure",
+          "keyPoints": [
+            "Omega-3 fatty acids support blood vessel health",
+            "Potassium content helps regulate blood pressure",
+            "Low sodium content",
+            "Anti-inflammatory properties"
+          ],
+          "servingAdvice": "3-6oz 2-3 times per week",
+          "timingAdvice": "Regular consumption recommended",
+          "pairingSuggestions": ["garlic", "leafy_greens", "whole_grains"],
+          "alternatives": ["tuna", "herring", "anchovies"],
+          "bloodSugarImpact": "none",
+          "bloodPressureImpact": "positive",
+          "heartHealthImpact": "very_positive",
+          "kidneyImpact": "low"
+        },
+        "high_cholesterol": {
+          "condition": "high_cholesterol",
+          "safetyLevel": "excellent",
+          "reasoning": "Omega-3s significantly improve cholesterol profile",
+          "keyPoints": [
+            "Raises HDL (good) cholesterol",
+            "Lowers triglycerides significantly",
+            "Reduces LDL particle oxidation",
+            "Overall heart-protective effects"
+          ],
+          "servingAdvice": "3-6oz 2-3 times per week",
+          "timingAdvice": "Regular consumption important for benefits",
+          "pairingSuggestions": ["oats", "avocado", "nuts"],
+          "alternatives": ["walnuts", "flaxseeds", "chia_seeds"],
+          "bloodSugarImpact": "none",
+          "bloodPressureImpact": "positive",
+          "heartHealthImpact": "very_positive",
+          "kidneyImpact": "low"
+        }
+      },
+      "primaryAlternatives": [
+        {
+          "foodId": "sardines",
+          "advantage": "Even higher omega-3 content with more calcium",
+          "improvement": "30% more omega-3s per serving",
+          "bestFor": ["heart_disease", "bone_health"]
+        },
+        {
+          "foodId": "mackerel",
+          "advantage": "Similar benefits with different flavor profile",
+          "improvement": "Comparable omega-3 content",
+          "bestFor": ["diabetes_type2", "heart_disease"]
+        }
+      ],
+      "alternativeReasoning": "While salmon is excellent, these alternatives provide variety with similar health benefits",
+      "nutritionalBenefits": [
+        {
+          "category": "heart_health",
+          "description": "Rich in omega-3 fatty acids that significantly improve cardiovascular health",
+          "strength": "very_strong"
+        },
+        {
+          "category": "inflammation",
+          "description": "Powerful anti-inflammatory properties help reduce chronic inflammation",
+          "strength": "strong"
+        },
+        {
+          "category": "brain_health",
+          "description": "DHA supports brain function and cognitive health",
+          "strength": "strong"
+        },
+        {
+          "category": "blood_sugar",
+          "description": "Zero carbohydrates with protein that improves insulin sensitivity",
+          "strength": "very_strong"
+        }
+      ],
+      "potentialConcerns": [
+        {
+          "category": "mercury",
+          "description": "Wild-caught generally has lower mercury than farmed",
+          "severity": "minor"
+        },
+        {
+          "category": "sustainability",
+          "description": "Choose sustainably sourced options when possible",
+          "severity": "minor"
+        }
+      ],
+      "preparationTips": [
+        {
+          "category": "cooking",
+          "description": "Bake, grill, or steam instead of frying to preserve nutrients"
+        },
+        {
+          "category": "selection",
+          "description": "Choose wild-caught when possible for optimal omega-3 content"
+        },
+        {
+          "category": "pairing",
+          "description": "Pair with colorful vegetables for maximum antioxidant benefits"
+        },
+        {
+          "category": "storage",
+          "description": "Cook fresh within 1-2 days of purchase for best quality"
+        }
+      ],
+      "dataSource": "curated",
+      "lastVerified": "2024-01-15T00:00:00Z",
+      "confidenceScore": 0.95,
+      "searchCount": 0,
+      "addedBy": "system",
+      "createdAt": "2024-01-15T00:00:00Z",
+      "lastUpdated": "2024-01-15T00:00:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "fruit",
+      "name": "Fruits",
+      "description": "Natural sweet foods with vitamins and fiber",
+      "glycemicConcern": "medium",
+      "generalAdvice": "Choose berries and apples over tropical fruits for better blood sugar control"
+    },
+    {
+      "id": "vegetable",
+      "name": "Vegetables",
+      "description": "Low-calorie, nutrient-dense plants",
+      "glycemicConcern": "low",
+      "generalAdvice": "Focus on non-starchy vegetables; limit potatoes and corn"
+    },
+    {
+      "id": "grain",
+      "name": "Grains",
+      "description": "Carbohydrate-rich seeds and cereals",
+      "glycemicConcern": "high",
+      "generalAdvice": "Always choose whole grains over refined grains"
+    },
+    {
+      "id": "protein",
+      "name": "Proteins",
+      "description": "Building blocks for muscles and tissues",
+      "glycemicConcern": "none",
+      "generalAdvice": "Focus on lean proteins and fatty fish for heart health"
+    },
+    {
+      "id": "dairy",
+      "name": "Dairy",
+      "description": "Milk-based products",
+      "glycemicConcern": "low",
+      "generalAdvice": "Choose low-fat options and watch for added sugars in flavored products"
+    },
+    {
+      "id": "fat",
+      "name": "Fats & Oils",
+      "description": "Energy-dense nutrients",
+      "glycemicConcern": "none",
+      "generalAdvice": "Focus on unsaturated fats from plants and fish"
+    }
+  ],
+  "conditions": [
+    {
+      "id": "diabetes_type1",
+      "name": "Diabetes Type 1",
+      "description": "Insulin-dependent diabetes",
+      "dietaryFocus": ["carbohydrate_counting", "insulin_timing", "blood_sugar_monitoring"],
+      "keyConsiderations": ["Match insulin to carb intake", "Prevent hypoglycemia", "Consistent carb intake"]
+    },
+    {
+      "id": "diabetes_type2",
+      "name": "Diabetes Type 2",
+      "description": "Insulin-resistant diabetes",
+      "dietaryFocus": ["blood_sugar_control", "weight_management", "insulin_sensitivity"],
+      "keyConsiderations": ["Low glycemic foods", "Portion control", "Regular meal timing"]
+    },
+    {
+      "id": "hypertension",
+      "name": "High Blood Pressure",
+      "description": "Elevated blood pressure levels",
+      "dietaryFocus": ["sodium_reduction", "potassium_rich_foods", "weight_management"],
+      "keyConsiderations": ["Limit processed foods", "Increase fruits/vegetables", "Watch portion sizes"]
+    },
+    {
+      "id": "high_cholesterol",
+      "name": "High Cholesterol",
+      "description": "Elevated blood cholesterol levels",
+      "dietaryFocus": ["saturated_fat_reduction", "fiber_intake", "healthy_fats"],
+      "keyConsiderations": ["Choose lean proteins", "Increase soluble fiber", "Limit processed foods"]
+    },
+    {
+      "id": "kidney_disease",
+      "name": "Kidney Disease",
+      "description": "Impaired kidney function",
+      "dietaryFocus": ["protein_moderation", "potassium_control", "phosphorus_management"],
+      "keyConsiderations": ["Limit high-potassium foods", "Control protein intake", "Monitor phosphorus"]
+    }
+  ]
+}

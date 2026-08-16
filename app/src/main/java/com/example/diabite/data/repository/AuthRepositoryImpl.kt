@@ -145,10 +145,12 @@ class AuthRepositoryImpl @Inject constructor(
         emit(Resource.loading())
 
         try {
+            // Send password reset email (Firebase handles it even for non-existent accounts)
             firebaseAuth.sendPasswordResetEmail(email).await()
+            Timber.d("Password reset email sent to: $email")
             emit(Resource.success(Unit))
         } catch (e: Exception) {
-            Timber.e(e, "Password reset failed")
+            Timber.e(e, "Password reset failed: ${e.message}")
             emit(Resource.firebaseError(e))
         }
     }

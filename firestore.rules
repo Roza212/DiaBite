@@ -7,8 +7,9 @@ service cloud.firestore {
       allow write: if false; // Food items are read-only, managed by backend
     }
     
-    // Users can only access their own data (including favoriteFoodIds and searchHistory root arrays)
+    // Users collection - handle both specific user documents and collection queries
     match /users/{userId} {
+      // Allow individual user to read/update/create their own document
       allow read: if request.auth != null && request.auth.uid == userId;
       allow update: if request.auth != null && request.auth.uid == userId;
       allow create: if request.auth != null && request.auth.uid == userId;
@@ -19,6 +20,12 @@ service cloud.firestore {
         allow read: if request.auth != null && request.auth.uid == userId;
         allow write: if request.auth != null && request.auth.uid == userId;
       }
+    }
+    
+    // Allow unauthenticated LIST queries on users collection for password reset
+    // This lets the app query "does this email exist?" without authentication
+    match /users {
+      allow list: if true;
     }
     
     match /userHistory/{userId} {

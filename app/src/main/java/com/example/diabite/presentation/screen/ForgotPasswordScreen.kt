@@ -176,7 +176,7 @@ fun ForgotPasswordScreen(navController: NavController, viewModel: AuthViewModel)
 
                         if (isResetSuccess) {
                             Text(
-                                text = "Password reset link sent to your email.\nPlease check your inbox.",
+                                text = "If you have an account with this email, you'll receive a password reset link shortly.\n\nPlease check your inbox.",
                                 color = MaterialTheme.colorScheme.primary,
                                 style = MaterialTheme.typography.bodyMedium,
                                 textAlign = TextAlign.Center,

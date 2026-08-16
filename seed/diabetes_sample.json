@@ -1,0 +1,95 @@
+{
+  "foodItems": [
+    {
+      "id": "strawberries",
+      "name": "Strawberries",
+      "normalizedName": "strawberries",
+      "category": "fruit",
+      "subcategory": "berries",
+      "servingSize": "1 cup sliced (150 g)",
+      "householdMeasure": "1 cup",
+      "calories": 50,
+      "totalCarbohydrates": 11,
+      "netCarbs": 8,
+      "fiber": 3,
+      "sugars": 7,
+      "protein": 1,
+      "totalFat": 0.5,
+      "saturatedFat": 0.1,
+      "glycemicIndex": 45,
+      "glycemicLoad": 3.6,
+      "diabetesTypes": [
+        "type1",
+        "type2"
+      ],
+      "recommendations": {
+        "diabetes_type1": {
+          "condition": "diabetes_type1",
+          "safetyLevel": "good",
+          "reasoning": "Moderate glycemic load; match insulin to carbs and consider pre-bolus",
+          "keyPoints": [
+            "Estimated GI 45, GL 3.6",
+            "Pre-bolus 10\u201315 min if GI \u2265 55",
+            "Pair with protein/fat to slow absorption",
+            "Recheck glucose ~2 hours post-meal"
+          ],
+          "servingAdvice": "1 cup sliced (150 g)",
+          "timingAdvice": "Any time with balanced meal",
+          "pairingSuggestions": [
+            "nuts",
+            "Greek yogurt",
+            "eggs"
+          ],
+          "alternatives": [],
+          "bloodSugarImpact": "medium"
+        },
+        "diabetes_type2": {
+          "condition": "diabetes_type2",
+          "safetyLevel": "good",
+          "reasoning": "Lower glycemic load when portioned and paired with protein/fat",
+          "keyPoints": [
+            "Net carbs 8 g; target GL \u2264 10",
+            "Use plate method: 1/2 non-starchy veg, 1/4 protein, 1/4 carbs",
+            "Choose whole, minimally processed forms",
+            "Monitor 1\u20132 h after meal; adjust portion"
+          ],
+          "servingAdvice": "1 cup sliced (150 g)",
+          "timingAdvice": "Best with meals; avoid late-night high GI choices",
+          "pairingSuggestions": [
+            "avocado",
+            "eggs",
+            "cheese"
+          ],
+          "alternatives": [],
+          "bloodSugarImpact": "medium"
+        }
+      }
+    }
+  ],
+  "firestore": {
+    "usersCollection": "users",
+    "userDocumentSchema": {
+      "uid": "string",
+      "email": "string",
+      "name": "string",
+      "diabetesType": "string"
+    },
+    "favoritesSubcollection": {
+      "name": "favorites",
+      "fields": {
+        "foodId": "string",
+        "addedAt": "timestamp"
+      }
+    },
+    "historySubcollection": {
+      "name": "history",
+      "fields": {
+        "foodId": "string",
+        "eatenAt": "timestamp"
+      },
+      "constraints": {
+        "maxEntries": 50
+      }
+    }
+  }
+}

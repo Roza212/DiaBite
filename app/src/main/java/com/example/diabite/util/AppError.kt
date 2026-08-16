@@ -174,11 +174,12 @@ sealed class AppError(
     )
 
     class UserNotFoundError(
+        userMessage: String = "Account not found. Please check your email or sign up.",
         technicalMessage: String? = null,
         cause: Throwable? = null
     ) : AppError(
         code = "USER_NOT_FOUND_ERROR",
-        userMessage = "Account not found. Please check your email or sign up.",
+        userMessage = userMessage,
         technicalMessage = technicalMessage,
         cause = cause,
         retryable = false
@@ -248,7 +249,7 @@ sealed class AppError(
                         return when (errorCode) {
                             "INVALID_LOGIN_CREDENTIALS" -> InvalidCredentialsError(message, exception)
                             "INVALID_EMAIL" -> InvalidEmailError(message, exception)
-                            "USER_NOT_FOUND" -> UserNotFoundError(message, exception)
+                            "USER_NOT_FOUND" -> UserNotFoundError(technicalMessage = message, cause = exception)
                             "TOO_MANY_REQUESTS" -> AuthenticationError("Too many login attempts. Please try again later.", message, exception)
                             "USER_DISABLED" -> AuthenticationError("This account has been disabled.", message, exception)
                             "WEAK_PASSWORD" -> InvalidPasswordError(message, exception)
@@ -281,7 +282,7 @@ sealed class AppError(
                 message.contains("There is no user record", ignoreCase = true) ||
                 message.contains("[USER_NOT_FOUND]", ignoreCase = true) ||
                 message.contains("no user record", ignoreCase = true) ->
-                    UserNotFoundError(message, exception)
+                    UserNotFoundError(technicalMessage = message, cause = exception)
                 
                 message.contains("INVALID_EMAIL", ignoreCase = true) ||
                 message.contains("invalid-email", ignoreCase = true) ||
