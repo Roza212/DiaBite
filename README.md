@@ -7,11 +7,13 @@
 DiaBite is a modern Android application built with Kotlin and Firebase.
 
 ## Overview
-This repository contains the source code for the DiaBite application. It leverages a modern tech stack to provide an intuitive user experience, integrating Firebase for real-time backend capabilities.
+DiaBite is a health and nutrition management application specifically tailored for diabetes patients. It helps users maintain a balanced lifestyle by accurately tracking their food consumption, calculating nutrient intake, and managing daily calories to ensure safe blood sugar levels. 
 
 ## Features
-- **Modern UI**: Built with responsive design principles.
-- **Firebase Integration**: Robust backend features utilizing Firebase.
+- **Diabetes Management**: Custom-tailored features to help patients track meals and monitor their dietary impact on blood sugar.
+- **Nutrient & Calorie Calculator**: Automatically calculates daily caloric intake and breaks down essential nutrients (carbohydrates, proteins, fats) to help users stay within their health goals.
+- **Modern UI**: Built with responsive design principles for an intuitive and accessible user experience.
+- **Firebase Integration**: Robust backend features utilizing Firebase for real-time data syncing.
 - **Kotlin Power**: Enjoy the safe, concise, and expressive nature of Kotlin.
 
 ## Getting Started
